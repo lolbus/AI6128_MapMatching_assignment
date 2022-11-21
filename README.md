@@ -16,15 +16,15 @@ Final_Report.doc - Final report content
 
 ## Setup instructions:
 Required packages: tqdm, osmnx, numpy, csv, matplotlib, geopandas  
-1.Task 2 Visualization code - Task2_src.ipynb  
-2.Task 3 Pre-process/post-process code - Task3_src.ipynb - Execute by ensuring the full trajectory kaggle data is saved as 'train.csv' in the 'data' folder and the folder 'porto_whole1' is in the same directory as source code file. 
-Preprocess will produce train-1000.csv and relevant input data file for FMM. 
-Postprocess will convert FMM output from file name porto_whole1/porto_whole1_output.txt into postprocessed_output.csv for Task 4 and Task 5.  
-3.Task 4 Visualization code - Task4_src.ipynb  
-4.Task 5(1), 5(2) and 5(3) code - Task5_src.ipynb - Execute by ensuring the folder 'porto_whole1' is in the same directory as source code file  
-5.Task 6 Figures Visualization code - Task6_src.ipynb - Execute by ensuring the folder 'porto_big' is in the same directory as source code file  
+1.Task 1 Preprocess code - Task1_src.ipynb - Execute by ensuring the full trajectory kaggle data is saved as 'train.csv' in the 'data' folder. Produces train1000.csv and time.txt (input data file for FMM)   
+2.Task 2 Visualization code - Task2_src.ipynb  
+3.Task 3 FMM Post-process code - Task3_src.ipynb - Execute by ensuring the folder 'porto_whole1' is in the same directory as source code file.
+Postprocess will convert FMM output from file name porto_whole1/porto_whole1_output.txt into a new file postprocessed_output.csv for Task 4 and Task 5 work.  
+4.Task 4 Visualization code - Task4_src.ipynb  
+5.Task 5(1), 5(2) and 5(3) code - Task5_src.ipynb - Execute by ensuring the folder 'porto_whole1' is in the same directory as source code file  
+6.Task 6 Figures Visualization code - Task6_src.ipynb - Execute by ensuring the folder 'porto_big' is in the same directory as source code file  
 
 Task 3 FMM code  
 Requires a system running on Ubuntu Focal and FMM Toolkit installed following the author's instruction here: https://fmm-wiki.github.io/docs/installation/ubuntu.html    
-6. Task 3 FMM Algorithm computing code using Python API of FMM algorithm: task3_fmm.py - Execute by ensuring the folder 'porto_whole1' in the the same directory as source code file with terminal command "python task3_fmm.py". 
+7. Task 3 FMM Algorithm computing code using Python API of FMM algorithm - task3_fmm.py - Execute by ensuring the folder 'porto_whole1' in the the same directory as source code file with terminal command "python task3_fmm.py". 
 Wait for generation of UBODT file and map matching routes file to be produced as postprocessed_output.csv in the porto_whole1 folder. The code read input trajectory data from the pre-processed file trips_time.txt, which was provided by Task3_src.ipynb.    
