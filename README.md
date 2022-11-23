@@ -19,8 +19,10 @@ Relevant file names:
   
 8. Task4_src.ipynb  
   
-9. Task5_src.ipynb - Source code to generate the 5 road segments that are traversed the most, and average traveling computing using the map matched trajectory data file postprocessed_output.csv.  
+9. Task5_12_src.ipynb - Source code to generate the 5 road segments that are traversed the most, and average traveling computing using the map matched trajectory data file postprocessed_output.csv.  
   
+10. Task5_3_src.ipynb - Visualization of Task 5 output  
+
 10. data - folder containing the output data of Task5_src.ipynb. output data contains the approximate average traverse time(in seconds) of each segment ID (defined as network's edge ID) and the frequency of how road segment usage as per the 1000 trajectory.  
   
 11. Task6_src.ipynb - Source code to generate visualization figures used in the report of Task 6.  
