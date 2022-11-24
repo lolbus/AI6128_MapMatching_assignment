@@ -3,9 +3,9 @@
 ## Assignment codes all here  
 Relevant file names:  
   
-1. Final_Report.doc - Final report content  
+1. AI6128 Assignment Final_Report.doc - Final report content  
   
-2. postprocessed_output.csv - Pre-built, output of map match algorithm. Contains rows of mapped route for each trajectory.  
+2. postprocessed_output.csv - CSV File storing the mapped routes of all 1000 trajectories in the train-1000 dataset from Task 3. Pre-built, output of map match algorithm. Each row contains 1 mapped route for each trajectory.  
   
 3. porto_big - contains saved network of the porto_big network graph used for task 6. It also contain the output result of various SP Dist settings and the FMM algorithm log file.  
   
@@ -43,7 +43,7 @@ Postprocess will convert FMM output from file name porto_whole1/porto_whole1_out
   
 6. Task 5(3) code - Task5_3_src_ipynb - Execute by ensuring the folder 'data' and the original submitted folder, 'porto_whole1' is in the same directory as source code file
   
-7. Task 6 Figures Visualization code - Task6_src.ipynb - Execute by ensuring the original submitted folder, 'porto_whole1' is in the same directory as source code file  
+7. Task 6 Figures Visualization code - Task6_src.ipynb - Majority of the visualization code take some time to run. Execute by ensuring the original submitted folder, 'porto_whole1' is in the same directory as source code file  
   
   
 Task 3 FMM code  
